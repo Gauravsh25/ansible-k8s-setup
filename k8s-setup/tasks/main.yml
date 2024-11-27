@@ -1,0 +1,6 @@
+---
+
+
+ - name: Checking on Ubuntu 
+   include: k8s-pkg.yml 
+   when: ansible_distribution == "Ubuntu" 
